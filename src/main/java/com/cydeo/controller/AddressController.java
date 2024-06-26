@@ -47,7 +47,8 @@ public class AddressController {
      */
 
     @PutMapping("/{addressNo}")
-    public AddressDTO updateAddress(@PathVariable String addressNo, @RequestBody AddressDTO addressDTO){
+    public AddressDTO updateAddress(@PathVariable String addressNo,
+                                    @RequestBody AddressDTO addressDTO){
         return addressService.update(addressNo,addressDTO);
     }
 
