@@ -8,6 +8,7 @@ INSERT INTO public.addresses (address_no, address_type, city, country, postal_co
 INSERT INTO public.addresses (address_no, address_type, city, country, postal_code, state, street) VALUES ('08', 'STUDENT', 'Tripoli', 'Libya', '10000', null, 'Str. Luan Haradinaj');
 INSERT INTO public.addresses (address_no, address_type, city, country, postal_code, state, street) VALUES ('09', 'TEACHER', 'Luxemburg', 'Luxembourg', '10000', null, 'Str. Mark Isaku');
 INSERT INTO public.addresses (address_no, address_type, city, country, postal_code, state, street) VALUES ('10', 'TEACHER', 'Ankara', 'Turkey', '10000', null, 'Str. Luan Haradinaj');
+INSERT INTO public.addresses (address_no, address_type, city, country, postal_code, state, street) VALUES ('11', 'TEACHER', 'Tbilisi', 'Georgia', '10000', null, 'Str. Rustaveli');
 
 INSERT INTO public.teachers (address_no, birthday, education_level, email, first_name, last_name, password, phone_number, username) VALUES ('01', '1972-01-06', 'MASTER', 'mike@email', 'Mike', 'Gotti', '123123123', '123123123', 'mike');
 INSERT INTO public.teachers (address_no, birthday, education_level, email, first_name, last_name, password, phone_number, username) VALUES ('03', '1972-01-06', 'BACHELOR', 'frank@email', 'Frank', 'Lampi', '123123123', '123123123', 'frank');

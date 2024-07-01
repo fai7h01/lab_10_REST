@@ -33,7 +33,7 @@ public class AddressController {
     public ResponseEntity<ResponseWrapper> getAddress(@PathVariable String addressNo){
         return ResponseEntity.ok(ResponseWrapper.builder()
                 .success(true)
-                .message("Address <addressNo> is successfully retrieved.")
+                .message("Address " + addressNo + " is successfully retrieved.")
                 .code(HttpStatus.OK.value())
                 .data(addressService.findByAddressNo(addressNo)).build());
     }
