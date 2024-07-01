@@ -14,7 +14,6 @@ query=Tbilisi --> query param 2
 @FeignClient(url = "http://api.weatherstack.com", name = "WEATHER-CLIENT")
 public interface WeatherClient {
 
-
     @GetMapping("/current")
     WeatherResponse getCurrentWeather(@RequestParam("access_key") String accessKey,
                                       @RequestParam("query") String city);
